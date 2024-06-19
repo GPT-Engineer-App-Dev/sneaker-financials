@@ -1,12 +1,14 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Index from "./pages/Index.jsx";
 
 function App() {
   return (
     <Router>
-      <Routes>
+      <Navbar />
+      <Switch>
         <Route exact path="/" element={<Index />} />
-      </Routes>
+      </Switch>
     </Router>
   );
 }
