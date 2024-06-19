@@ -1,5 +1,5 @@
 import { Box, Flex, Link, Button, useDisclosure, Stack } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { MdMenu as HamburgerIcon, MdClose as CloseIcon } from 'react-icons/md';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = () => {
